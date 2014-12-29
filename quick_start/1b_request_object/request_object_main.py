@@ -1,3 +1,4 @@
+# -*- coding:utf8 -*-
 from flask import Flask
 from flask import request, render_template
 
@@ -27,6 +28,10 @@ if __name__ == '__main__':
         assert request.path == '/login'
         assert request.method == 'GET'
 
+        # TODO: 응답 체크
+
     with app.test_request_context('/login', method='POST'):
         assert request.path == '/login'
         assert request.method == 'POST'
+
+        # TODO: 응답 체크
