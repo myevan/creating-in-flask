@@ -6,7 +6,7 @@ from contextlib import closing
 DEBUG = True
 DATABASE = '/tmp/flaskr.db'
 SECRET_KEY = 'DEVELOPMENT_KEY'
-USER_NAME = 'admin'
+USERNAME = 'admin'
 PASSWORD = 'default'
 
 app = Flask(__name__)
