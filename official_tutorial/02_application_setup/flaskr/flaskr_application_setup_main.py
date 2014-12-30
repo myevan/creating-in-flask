@@ -3,7 +3,7 @@ import sqlite3
 from flask import Flask
 
 DEBUG = True
-DATA_BASE = '/tmp/flaskr.db'
+DATABASE = '/tmp/flaskr.db'
 SECRET_KEY = 'DEVELOPMENT_KEY'
 USER_NAME = 'admin'
 PASSWORD = 'default'
